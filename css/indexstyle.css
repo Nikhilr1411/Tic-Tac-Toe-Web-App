@@ -35,8 +35,4 @@ button{
 	background-color: #45A293;	
 	color: #0B0C10;
 }
-@media only screen and (max-width: 400px) {
-	body {
-		background-color: red;
-	}	
-}
+

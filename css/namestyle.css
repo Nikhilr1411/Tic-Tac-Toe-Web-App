@@ -39,3 +39,16 @@ button:hover {
 	background-color: #45A293;	
 	color: #0B0C10;
 }
+@media only screen and (max-height:570px)
+{
+
+	h1 {
+		font-size: 1.5em;
+	}		
+	body {
+		height: 100vh;
+	}	
+	img {
+		height: 100px;
+	}
+}

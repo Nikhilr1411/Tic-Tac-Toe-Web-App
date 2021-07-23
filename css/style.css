@@ -55,3 +55,53 @@ label {
 	margin: 30px;
 	font-size: 2em;
 }
+@media only screen and (max-width: 540px)
+{
+	.row button {
+		height: 120px;
+		width: 150px;
+		border-radius: 1.5em;
+	}
+	img {
+		height: 100px;
+
+	}
+}
+@media only screen and (max-width: 420px)
+{
+	.row button {
+		height: 100px;
+		width: 120px;
+		border-radius: 1.5em;
+	}
+	img {
+		height: 90px;
+
+	}
+}
+@media only screen and (max-width: 380px)
+{
+	.row button {
+		height: 90px;
+		width: 100px;
+		border-radius: 1.5em;
+	}
+	img {
+		height: 80px;
+
+	}
+}
+
+@media only screen and (max-width: 330px)
+{
+	.row button {
+		height: 90px;
+		width: 90px;
+		border-radius: 1.5em;
+		margin: 5px;
+	}
+	img {
+		height: 70px;
+
+	}
+}
